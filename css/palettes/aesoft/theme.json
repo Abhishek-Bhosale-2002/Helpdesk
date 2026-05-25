@@ -1,0 +1,18 @@
+{
+  "name": "AESOFT Theme",
+  "author": "Abhishek",
+  "version": "1.0",
+  "palette": "aesoft",
+  "logo": "login.logo.png",
+  "background": "login.background.jpg",
+  "login": {
+    "logo": "login.logo.png",
+    "background": "login.background.jpg"
+  },
+  "colors": {
+    "primary": "#1E2FD1",
+    "secondary": "#4A6CF7",
+    "accent": "#FF6B00",
+    "text": "#ffffff"
+  }
+}

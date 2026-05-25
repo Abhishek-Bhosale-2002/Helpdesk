@@ -1,0 +1,48 @@
+body.login {
+    background: url('login.background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+}
+
+body.login::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 0;
+}
+
+.login-box {
+    position: relative;
+    z-index: 1;
+    background: rgba(20, 20, 20, 0.65);
+    border-radius: 14px;
+    padding: 30px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+}
+
+.login-logo img {
+    height: 60px;
+    max-width: 240px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.login-box-msg {
+    color: #ffffff;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #1E2FD1, #4A6CF7);
+    border: none;
+    border-radius: 8px;
+}
+
+.btn-primary:hover {
+    opacity: 0.9;
+}
+
+.form-control {
+    border-radius: 8px;
+}
